@@ -118,6 +118,7 @@ span {
     font-size: 1.5em;
 }
 
+
 em {
     font-family: 'Estonia', cursive;
     font-size: 1.5em;
@@ -130,13 +131,15 @@ em {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.4em;
   height: 300px;
   display: flex;
   width: 30%;
@@ -150,8 +153,50 @@ em {
 
 .div-2 {
     border-left: #7d7d7d 1px solid;
-    border-right:#7d7d7d 1px solid;
+    border-right:#7d7d7d 1px solid; 
+    padding: 12px 12px;
 }
+
+header {
+    background:rgba(0,0,0,0.7);
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2.5em;
+}
+
+header,
+footer {
+  color: #fff;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 400;
+  height: 250px;
+  width: 100%;
+  border-bottom: #7d7d7d 2px solid;
+}
+
+.call-out {
+    color: #FF3E33;
+    display: contents;
+}
+
+header,
+footer,
+main {     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 12px;
+}
+
+footer {
+    border-top: #7d7d7d 2px solid;
+}
+
 
 
 
